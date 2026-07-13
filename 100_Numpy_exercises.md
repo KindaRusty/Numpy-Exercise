@@ -1,12 +1,8 @@
-
-
-
 # 100 numpy exercises
 
 This is a collection of exercises that have been collected in the numpy mailing list, on stack overflow
 and in the numpy documentation. The goal of this collection is to offer a quick reference for both old
 and new users but also to provide a set of exercises for those who teach.
-
 
 If you find an error or think you've a better way to solve some of them, feel
 free to open an issue at <https://github.com/rougier/numpy-100>.
@@ -45,6 +41,7 @@ File automatically generated. See the documentation to update questions/answers/
 #### 16. How to add a border (filled with 0's) around an existing array? (★☆☆)
 
 #### 17. What is the result of the following expression? (★☆☆)
+
 ```python
 0 * np.nan
 np.nan == np.nan
@@ -71,6 +68,7 @@ np.nan in set([np.nan])
 #### 25. Given a 1D array, negate all elements which are between 3 and 8, in place. (★☆☆)
 
 #### 26. What is the output of the following script? (★☆☆)
+
 ```python
 # Author: Jake VanderPlas
 
@@ -80,6 +78,7 @@ print(sum(range(5),-1))
 ```
 
 #### 27. Consider an integer vector Z, which of these expressions are legal? (★☆☆)
+
 ```python
 Z**Z
 2 << Z >> 2
@@ -90,6 +89,7 @@ Z<Z>Z
 ```
 
 #### 28. What are the result of the following expressions? (★☆☆)
+
 ```python
 np.array(0) / np.array(0)
 np.array(0) // np.array(0)
@@ -103,6 +103,7 @@ np.array([np.nan]).astype(int).astype(float)
 #### 31. How to ignore all numpy warnings (not recommended)? (★☆☆)
 
 #### 32. Is the following expressions true? (★☆☆)
+
 ```python
 np.sqrt(-1) == np.emath.sqrt(-1)
 ```
@@ -111,7 +112,7 @@ np.sqrt(-1) == np.emath.sqrt(-1)
 
 #### 34. How to get all the dates corresponding to the month of July 2016? (★★☆)
 
-#### 35. How to compute ((A+B)*(-A/2)) in place (without copy)? (★★☆)
+#### 35. How to compute ((A+B)\*(-A/2)) in place (without copy)? (★★☆)
 
 #### 36. Extract the integer part of a random array of positive numbers using 4 different methods (★★☆)
 
@@ -150,6 +151,7 @@ np.sqrt(-1) == np.emath.sqrt(-1)
 #### 53. How to convert a float (32 bits) array into an integer (32 bits) array in place?
 
 #### 54. How to read the following file? (★★☆)
+
 ```
 1, 2, 3, 4, 5
 6,  ,  , 7, 8
@@ -182,7 +184,7 @@ np.sqrt(-1) == np.emath.sqrt(-1)
 
 #### 67. Considering a four dimensions array, how to get sum over the last two axis at once? (★★★)
 
-#### 68. Considering a one-dimensional vector D, how to compute means of subsets of D using a vector S of same size describing subset  indices? (★★★)
+#### 68. Considering a one-dimensional vector D, how to compute means of subsets of D using a vector S of same size describing subset indices? (★★★)
 
 #### 69. How to get the diagonal of a dot product? (★★★)
 
@@ -192,13 +194,13 @@ np.sqrt(-1) == np.emath.sqrt(-1)
 
 #### 72. How to swap two rows of an array? (★★★)
 
-#### 73. Consider a set of 10 triplets describing 10 triangles (with shared vertices), find the set of unique line segments composing all the  triangles (★★★)
+#### 73. Consider a set of 10 triplets describing 10 triangles (with shared vertices), find the set of unique line segments composing all the triangles (★★★)
 
 #### 74. Given a sorted array C that corresponds to a bincount, how to produce an array A such that np.bincount(A) == C? (★★★)
 
 #### 75. How to compute averages using a sliding window over an array? (★★★)
 
-#### 76. Consider a one-dimensional array Z, build a two-dimensional array whose first row is (Z[0],Z[1],Z[2]) and each subsequent row is  shifted by 1 (last row should be (Z[-3],Z[-2],Z[-1]) (★★★)
+#### 76. Consider a one-dimensional array Z, build a two-dimensional array whose first row is (Z[0],Z[1],Z[2]) and each subsequent row is shifted by 1 (last row should be (Z[-3],Z[-2],Z[-1]) (★★★)
 
 #### 77. How to negate a boolean, or to change the sign of a float inplace? (★★★)
 
